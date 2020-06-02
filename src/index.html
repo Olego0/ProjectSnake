@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zmeika2000</title>
+    <!-- <link rel="shortcut icon" href="./img/icon.ico" type="image/x-icon"> -->
+</head>
+<body>
+    <a href="#" title="Вернуться к началу" class="topbutton"></a>
+    <div class="head-bgimg" id="sectionhome">
+        <nav><img class="logo" src="./img/logo-EnCodeRs-2(white).png">
+            <div class="ggg"><ul class="menu, content-box3">
+                <li class="menu-item"><a href="#sectionhome">главная</a></li>
+                <li class="menu-item"><a href="#sectionsnake">реализованные проекты</a></li>
+                <li class="menu-item"><a class="list" href="#sectionteam">контакты</a></li>
+            </ul></div>
+        </nav>
+        <div class="head-txt">
+            <p>ДОБРО ПОЖАЛОВАТЬ!!!</p><br>
+            <p>На сайте вы сможете найти разработанные нашей</p> 
+            <p>командой игры и класно провести время.</p>
+        </div>
+    </div>
+    
+    <div class="snake" id="sectionsnake">
+        <div class="logo-snake">
+            <img src="./img/download_1.gif"/>
+            <div class="game-text">
+                <button id="myBtn">ПРАВИЛА ИГРЫ</button>
+                <button id="myBtnb">НЕ РАБОТАЕТ</button>
+                <button id="myBtnс">ЦВЕТ ЗМЕИ</button>
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>ПРАВИЛА: </h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>Управление осуществляется на W, A, S, D</p>
+                            <p>Задача:</p>
+                            <li>не столкнуться с камнями</li>
+                            <li>собирать фрукты чтобы увеличивать счет</li>
+                            <li>не собирать гнилые яблоки - уменьшают счет</li>
+                            <p>Не работает игра? Нажмите кнопку "не работает"</p>
+                        </div>
+                        <div class="modal-footer">
+                             <h3>ПРИЯТНОЙ ИГРЫ =)</h3>
+                        </div>
+                    </div>
+                </div>
+                <div id="myModalс" class="modalс">
+                    <div class="modal-contentс">
+                        <div class="modal-headerс">
+                            <spanс class="closeс">&times;</spanс>
+                            <h2>ВИБЕРИ ЦВЕТ ЗМЕИ =O</h2>
+                        </div>
+                        <div class="modal-bodyс">
+                            <p>ЦВЕТ:</p>
+                            <p><input id="first-color" type="color" value="#005928"> Непарные елементы</p>
+                            <p><input id="second-color" type="color" value="#52A23C"> Парные елементы</p>
+                            <!-- <p><input id="color-snake" type="radio" name = "radiosGroup" value="3"> Blue-lightblue</p> -->
+                        </div>
+                        <div class="modal-footerс">
+                             <h3>ПОКАЧТО НЕ РАБОТАЕТ =(</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="rule-img"><img src="./img/rules.png" alt=""></div>
+                <!-- Управление осуществляется на W, A, S, D<br>Задача: 
+                <li>не столкнуться с камнями</li> 
+                <li>собирать яблоки или арбузы чтобы увеличивать счет</li>
+                <li>не собирать гнилые яблоки - уменьшают счет</li> -->
+            </div>
+        </div>
+        <div class="game-snake"><canvas id = "game" width = "608" height = "608"></canvas></div> 
+    </div>
+    <section class="team-seaction" id="sectionteam">
+        <h3 class="section-header">НАША КОМАНДА</h3>
+    <ul class="team-list">
+        <li class="team-member">
+            <div class="overflow">
+                <img src="./img/nik.png" alt="" class="member-photo"></div>
+                <h4 class="member-name">НИКИТА</h4>
+                <p class="member-position">КОНТЕНТ МЕНЕДЖЕР</p>
+                <div class="hover-box">
+                    <p class="quote">ЭТО НИКИТА - наш проджект менеджер, отвечал за идею игры.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/young_animehnik/" class="member-social-link" target="_blank"></a>
+                        <a href="https://steamcommunity.com/profiles/76561198257862095" class="member-social-link" target="_blank"></a>
+                        <a href="https://t.me/EnCodeRs_Template" class="member-social-link" target="_blank"></a>
+                    </div>
+                </div>
+        </li>
+        <li class="team-member">
+            <div class="overflow">
+                <img src="./img/oleg.png" alt="" class="member-photo"></div>
+                <h4 class="member-name">ОЛЕГ</h4>
+                <p class="member-position">Главный FE Разработчик</p>
+                <div class="hover-box">
+                    <p class="quote">ЭТО ОЛЕГ - Team-Lead команды EnCodeRs, отвечал за идею сайта. </p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/ostrovskiy_oleh/" class="member-social-link" target="_blank"></a>
+                        <a href="https://steamcommunity.com/profiles/76561198860200219/" class="member-social-link" target="_blank"></a>
+                        <a href="https://t.me/EnCodeRs_Template" class="member-social-link" target="_blank"></a>
+                    </div>
+                </div>
+        </li>
+        <li class="team-member">
+            <div class="overflow">
+                <img src="./img/den.png" alt="" class="member-photo"></div>
+                <h4 class="member-name">ДЕНИС</h4>
+                <p class="member-position">Soft-Skils МЕНЕДЖЕР</p>
+                <div class="hover-box">
+                    <p class="quote">ЭТО ДЕНИС - главный по Soft-Skils, делал mind-map . <!-- занимался ничем пока мы делали проект. --></p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/_s_e_n_p_a_1_/" class="member-social-link" target="_blank"></a>
+                        <a href="https://steamcommunity.com/profiles/76561198898129120" class="member-social-link" target="_blank"></a>
+                        <a href="https://t.me/EnCodeRs_Template" class="member-social-link" target="_blank"></a>
+                    </div>
+                </div>
+        </li>
+    </ul>
+    </section>
+    <footer class="contacts-section">
+        <hr color="white" size="1">
+        <p class="copyright">2020 EnCodeRs Template. All Rights Reserved</p>
+    </footer>
+   
+</body>
+</html>
